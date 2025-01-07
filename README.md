@@ -19,10 +19,10 @@ This project provides automated tests for the SimpleBook API using the Rest-Assu
 
 The following technologies are used in this project:
 
-- ![Java](https://img.shields.io/badge/Java-11-007396?style=flat&logo=openjdk&logoColor=white)  
-- ![Maven](https://img.shields.io/badge/Maven-3.8.4-C71A36?style=flat&logo=apache-maven&logoColor=white)  
-- ![Rest-Assured](https://img.shields.io/badge/Rest--Assured-4.3.3-00B0B9?style=flat&logo=swagger&logoColor=white)  
-- ![TestNG](https://img.shields.io/badge/TestNG-7.4.0-2E6A47?style=flat&logo=testng&logoColor=white)
+- ![Java](https://img.shields.io/badge/Java-11-F7B731?style=flat&logo=openjdk&logoColor=white)  
+- ![Maven](https://img.shields.io/badge/Maven-3.8.4-2E6C71?style=flat&logo=apache-maven&logoColor=white)  
+- ![Rest-Assured](https://img.shields.io/badge/Rest--Assured-4.3.3-50C878?style=flat&logo=swagger&logoColor=white)  
+- ![TestNG](https://img.shields.io/badge/TestNG-7.4.0-1D8348?style=flat&logo=testng&logoColor=white)
 
 
 ## Project Setup
