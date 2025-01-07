@@ -19,10 +19,10 @@ This project provides automated tests for the SimpleBook API using the Rest-Assu
 
 The following technologies are used in this project:
 
-- ![Java](https://img.shields.io/badge/Java-11-F7B731?style=flat&logo=openjdk&logoColor=white) ![Java Icon](https://img.shields.io/static/v1?label=&message=Java&color=F7B731&logo=openjdk&logoColor=white&style=flat)
-- ![Maven](https://img.shields.io/badge/Maven-3.8.4-2E6C71?style=flat&logo=apache-maven&logoColor=white) ![Maven Icon](https://img.shields.io/static/v1?label=&message=Maven&color=2E6C71&logo=apache-maven&logoColor=white&style=flat)
-- ![Rest-Assured](https://img.shields.io/badge/Rest--Assured-4.3.3-50C878?style=flat&logo=swagger&logoColor=white) ![Rest-Assured Icon](https://img.shields.io/static/v1?label=&message=Rest-Assured&color=50C878&logo=swagger&logoColor=white&style=flat)
-- ![TestNG](https://img.shields.io/badge/TestNG-7.4.0-1D8348?style=flat&logo=testng&logoColor=white) ![TestNG Icon](https://img.shields.io/static/v1?label=&message=TestNG&color=1D8348&logo=testng&logoColor=white&style=flat)
+- ![Java](https://img.shields.io/badge/Java-11-007396?style=flat&logo=openjdk&logoColor=white)  
+- ![Maven](https://img.shields.io/badge/Maven-3.8.4-2E6C71?style=flat&logo=apache-maven&logoColor=white)  
+- ![Rest-Assured](https://img.shields.io/badge/Rest--Assured-4.3.3-50C878?style=flat&logo=swagger&logoColor=white)  
+- ![TestNG](https://img.shields.io/badge/TestNG-7.4.0-1D8348?style=flat&logo=testng&logoColor=white)
 
 
 ## Project Setup
