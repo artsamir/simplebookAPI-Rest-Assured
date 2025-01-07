@@ -90,15 +90,15 @@ After the tests are executed, TestNG generates a test report (usually under /tar
 
 | Test Case No. | Test Case Name        | Status                                      | Execution Time |
 |---------------|-----------------------|---------------------------------------------|----------------|
-| TC1           | Status                | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.5s           |
-| TC2           | List of Books         | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.7s           |
-| TC3           | Get a Single Book     | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.3s           |
-| TC4           | API Authentication    | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.5s           |
-| TC5           | Submit an Order       | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.7s           |
-| TC6           | Get All Orders        | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.5s           |
+| TC1           | Status                | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.5s           |
+| TC2           | List of Books         | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.7s           |
+| TC3           | Get a Single Book     | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.3s           |
+| TC4           | API Authentication    | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.5s           |
+| TC5           | Submit an Order       | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.7s           |
+| TC6           | Get All Orders        | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.5s           |
 | TC7           | Get an Order          | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 2s             |
-| TC8           | Update an Order       | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.5s           |
-| TC9           | Delete an Order       | ![Pass](https://img.shields.io/badge/Status-Skipped-lightgray) | 1.7s           |
+| TC8           | Update an Order       | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.5s           |
+| TC9           | Delete an Order       | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen)  | 1.7s           |
 
 **Total Test Cases**: 9  
 **Pass**: 1  
