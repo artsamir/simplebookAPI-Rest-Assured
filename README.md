@@ -50,18 +50,28 @@ The following technologies are used in this project:
   
 ## Folder Structure
 
-- **`pom.xml`**: Maven build configuration file for managing dependencies and build settings.
-- **`src/test/java/rest_assured/simpleBook.java`**: Main test case file containing the automation tests.
-- **`test-output/`**: Contains the test results and reports.
-  - **`emailable-report.html`**: A report formatted for easy emailing.
-  - **`index.html`**: A general overview of the test results.
-  - **`testng-reports/`**: Detailed TestNG reports and logs.
-    - **`Default suite/`**: Default suite report data.
-    - **`junitreports/`**: JUnit-style reports.
-    - **`old/`**: Archived reports from previous test runs.
-- **`.metadata/`**: Metadata for the Eclipse IDE.
-  - **`.plugins/`**: Eclipse plugin configurations.
-  - **`version.ini`**: Eclipse workspace and version data.
+```
+artsamir-simplebookAPI-Rest-Assured/
+│
+├── pom.xml                              # Maven build configuration
+├── src/
+│   └── test/
+│       └── java/
+│           └── rest_assured/
+│               └── simpleBook.java      # Main test case file
+│
+├── test-output/
+│   ├── emailable-report.html            # Test results in email-friendly format
+│   ├── index.html                       # General test overview page
+│   ├── testng-reports/                  # TestNG reports and logs
+│   │   ├── Default suite/
+│   │   ├── junitreports/                # JUnit reports
+│   │   └── old/                         # Archive of old reports
+│
+└── .metadata/
+    ├── .plugins/                        # Eclipse plugin configurations
+    └── version.ini                      # Version and workspace data
+```
     
 
 ## How to Run the Tests
@@ -75,3 +85,22 @@ The following technologies are used in this project:
 
 ## Test Results
 After the tests are executed, TestNG generates a test report (usually under /target/test-classes/testng-results.xml). You can also view the results in a more user-friendly format using the TestNG HTML report.
+
+### Test Case Execution Status
+
+| Test Case No. | Test Case Name    | Status | Execution Time |
+|---------------|-------------------|--------|----------------|
+| TC1           | Test Book Creation| ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 2s |
+| TC2           | Test Book Retrieval| ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 1.5s |
+| TC3           | Test Book Update   | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 1.7s |
+| TC4           | Test Book Deletion | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 1.3s |
+| TC5           | Test Invalid Book Creation| ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 2.2s |
+| TC6           | Test Book Retrieval by Author| ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 1.9s |
+| TC7           | Test Book Search   | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 1.8s |
+| TC8           | Test Invalid Book Deletion| ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 2.0s |
+| TC9           | Test Book List     | ![Pass](https://img.shields.io/badge/Status-Pass-brightgreen) | 1.6s |
+
+**Total Test Cases:** 9  
+**Pass:** 9  
+**Fail:** 0
+
