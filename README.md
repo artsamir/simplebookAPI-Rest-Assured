@@ -1,34 +1,43 @@
-# SimpleBook API Automation with Rest Assured
+# SimpleBookAPI Rest-Assured with TestNG
 
-Welcome to the **SimpleBook API Automation** project! This repository demonstrates the power of **Rest Assured** for performing automated tests on APIs. It's built with modern tools and follows best practices for API testing and report generation.
+This repository demonstrates how to automate API testing using Rest-Assured and TestNG for a simple book API.
 
-## Tech Stack
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Project Setup](#project-setup)
+3. [Folder Structure](#folder-structure)
+4. [How to Run the Tests](#how-to-run-the-tests)
+5. [Test Results](#test-results)
 
-The following technologies are used in this project:
 
-- <img src="https://img.icons8.com/ios-filled/50/000000/java-coffee-cup-logo.png" width="20" height="20" /> **Java**
-- <img src="https://img.icons8.com/ios-filled/50/000000/automation.png" width="20" height="20" /> **Rest Assured**
-- <img src="https://img.icons8.com/ios-filled/50/000000/test-tube.png" width="20" height="20" /> **TestNG**
-- <img src="https://img.icons8.com/ios-filled/50/000000/apache-maven.png" width="20" height="20" /> **Maven**
-- <img src="https://img.icons8.com/ios-filled/50/000000/git.png" width="20" height="20" /> **Git**
-- <img src="https://img.icons8.com/ios-filled/50/000000/junit.png" width="20" height="20" /> **JUnit**
-- <img src="https://img.icons8.com/ios-filled/50/000000/html.png" width="20" height="20" /> **HTML Reports**
-- <img src="https://img.icons8.com/ios-filled/50/000000/docker.png" width="20" height="20" /> **Docker** *(if applicable)*
+## Introduction
 
-### Color Palette
+This project provides automated tests for the SimpleBook API using the Rest-Assured library, integrated with TestNG for testing and reporting. It demonstrates how to validate HTTP requests, responses, and perform various checks such as status code validation, response time, and JSON schema validation.
 
-- **Java**: <span style="color:#007396;">#007396</span>
-- **Rest Assured**: <span style="color:#F48C06;">#F48C06</span>
-- **TestNG**: <span style="color:#E04E39;">#E04E39</span>
-- **Maven**: <span style="color:#C71A36;">#C71A36</span>
+## Project Setup
 
----
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/artsamir/simplebookAPI-Rest-Assured.git
+    ```
 
-## Project Structure
+2. **Prerequisites**:
+    - Java 11 or higher
+    - Maven
+    - IDE (e.g., IntelliJ IDEA or Eclipse)
 
-Here's an overview of the project directory structure:
+3. **Install Dependencies**:
+    In the project directory, run:
+    ```bash
+    mvn install
+    ```
 
-```bash
+4. **Project Configuration**:
+    - **Rest-Assured**: Used for making API requests and assertions.
+    - **TestNG**: A testing framework used for organizing and running tests.
+    - **Maven**: For managing project dependencies and running tests.
+  
+## Folder Structure
 artsamir-simplebookAPI-Rest-Assured/
 │
 ├── pom.xml                              # Maven build configuration
@@ -49,3 +58,16 @@ artsamir-simplebookAPI-Rest-Assured/
 └── .metadata/
     ├── .plugins/                        # Eclipse plugin configurations
     └── version.ini                      # Version and workspace data
+    
+
+## How to Run the Tests
+
+1. **Run Tests Using Maven**:  
+   You can run the tests using Maven commands:
+   ```bash
+   mvn test
+2. **Run Individual Test Class**:
+   If you want to run a specific test class, use your IDE (e.g., IntelliJ IDEA or Eclipse) to run individual test files.
+
+## Test Results
+After the tests are executed, TestNG generates a test report (usually under /target/test-classes/testng-results.xml). You can also view the results in a more user-friendly format using the TestNG HTML report.
